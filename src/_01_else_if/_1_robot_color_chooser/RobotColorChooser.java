@@ -44,6 +44,7 @@ public class RobotColorChooser {
 			rob.setAngle(60);
 			rob.move(40);
 			rob.setAngle(120);
+			  afdsa
 			rob.move(40);
 	}
 }
