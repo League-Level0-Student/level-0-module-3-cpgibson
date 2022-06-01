@@ -16,8 +16,8 @@ System.out.println(random);
 		// 11. Repeat steps 1 to 10 ten times
 		
 			// 1. Ask the user for a guess using a pop-up window, and save their response 
-String guess1 = JOptionPane.showInputDialog("Guess a number between 1 and 5!");
-			// 4. Convert the users’ answer to an int (Integer.parseInt(string))
+String guess1 = JOptionPane.showInputDialog("Guess a number between 0 and 5!");
+			// 4. Convert the users’ answer to an  (Integer.parseInt(string))
 		int numguess1 = Integer.parseInt(guess1);	
 		if (numguess1 == random) {
 			JOptionPane.showMessageDialog(null, "You win!");
