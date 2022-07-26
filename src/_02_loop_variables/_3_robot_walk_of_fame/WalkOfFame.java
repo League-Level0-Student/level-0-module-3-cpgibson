@@ -18,7 +18,7 @@ rob.penDown();
 for (int i=0; i<=5; i++) {
 	rob.turn(144);
 	rob.move(30);
-}
+fdafdafs
 		// 3. Set the length of each line in the star to 30.
 
 		/** THE CHALLENGE: **/
