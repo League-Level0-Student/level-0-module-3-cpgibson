@@ -15,10 +15,17 @@ rob.setX(100);
 		// 2. Make the robot draw a star shape. Hint: angle=144.
 rob.setPenColor(Color.ORANGE);
 rob.penDown();
+
+for (int j=0; j<=10; j++) {
+
+	rob.setAngle(90);
+	rob.move(50);
+	
 for (int i=0; i<=5; i++) {
 	rob.turn(144);
 	rob.move(30);
-fdafdafs
+}
+}
 		// 3. Set the length of each line in the star to 30.
 
 		/** THE CHALLENGE: **/
